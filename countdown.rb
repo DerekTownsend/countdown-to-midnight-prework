@@ -7,3 +7,13 @@ def countdown(number)
   end
   return "HAPPY NEW YEAR!"
 end
+
+
+def countdown(number)
+  while number>0
+    sleep(num_secs)
+    number-=1
+    puts "#{number} SECOND(S)!"
+  end
+  return "HAPPY NEW YEAR!"
+end
